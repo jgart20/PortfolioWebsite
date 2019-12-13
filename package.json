@@ -1,0 +1,20 @@
+{
+  "name": "node_kb",
+  "version": "1.0.0",
+  "description": "Simple knowledge base application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Jeremy Gart",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "nodemon": "^1.19.4",
+    "popper.js": "^1.15.0",
+    "pug": "^2.0.4",
+    "serve-favicon": "^2.5.0"
+  }
+}
