@@ -1,3 +1,4 @@
+//constants and variables required to run requisite services
 const express = require('express');
 var favicon = require('serve-favicon');
 const path = require('path');
@@ -5,6 +6,7 @@ const path = require('path');
 //init app
 const app = express();
 
+//favicon code
 app.use(favicon(path.join(__dirname, 'Public/startbootstrap-resume-gh-pages', 'favicon.ico')));
 
 //load view engine
