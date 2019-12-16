@@ -53,3 +53,4 @@ Note- not every file within this project has been modified. Many were installed 
 ## Successful Run:
 visit www.jeremygart.com
 ![image of successful website rendering](/running.png)
+![image of successful terminal run](/terminal.png)
