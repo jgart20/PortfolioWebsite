@@ -24,10 +24,13 @@ Note- not every file within this project has been modified. Many were installed 
 
 #1: App.js
   The purpose of this file is to provide a back framework for the routing of the website. 
+  
 #2: Layout.pug
   This is where the actual PUG/Bootstrap code lies. If a change is to be made to the site, this is the place where it must be modified before being uploaded to the server with an scp command.
+  
 #3: Img Folder
   This folder is where any images used on the website are put. For now, only the profile photo is used, but if more photos are added later, they must be put into this folder.
+  
 #4: Other Files
   There can be modifications made to other files within this project path. However, for the scope of this project, the only files that require creation/modification are the ones listed above.
 
