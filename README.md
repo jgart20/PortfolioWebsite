@@ -33,8 +33,13 @@ Note- not every file within this project has been modified. Many were installed 
 ### #3: Img Folder
   This folder is where any images used on the website are put. For now, only the profile photo is used, but if more photos are added later, they must be put into this folder.
   
-### #4: Other Files
+### #4: Other Files/Folders
   There can be modifications made to other files within this project path. However, for the scope of this project, the only files that require creation/modification are the ones listed above.
+  * Public/startbootstrap-resume-gh-pages: Contains all bootstrap code, images for website go in here
+  * jadebootstrap-seed: Contains general bootstrap setup
+  * node_modules: _Do not delete files from here_, contains code put in by npm
+  * views: Contains PUG code
+  * package-lock.json and package.json: Contain setup for Node.js
 
 ## Other Necessary Programs for Setup:
 
