@@ -22,7 +22,7 @@
 
 Note- not every file within this project has been modified. Many were installed along with the general template that I used and have not been tampered with in any way.
 
-#1: App.js
+### #1: App.js
   The purpose of this file is to provide a back framework for the routing of the website. 
   
 #2: Layout.pug
