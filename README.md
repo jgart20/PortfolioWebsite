@@ -43,10 +43,10 @@ Note- not every file within this project has been modified. Many were installed 
 
 ## Other Necessary Programs for Setup:
 
-### #1: ![Godaddy.com](https://godaddy.com/)
+### #1: [Godaddy.com](https://godaddy.com/)
   Not strictly necessary, but assists in buying a domain name for a relatively cheap price. Once bought, the specific IP address can be required and linked up to a remote server. In my case, I used Kent Denver's server.
   
-### #2: ![DigitalOcean](https://cloud.digitalocean.com/)
+### #2: [DigitalOcean](https://cloud.digitalocean.com/)
   Again, this can be substituted for a different program. However, it is necessary regardless to acquire a program that can create droplets, a root for the server, and manage the backend network requirements for the domain. A plan must then be bought that charges monthly, with cost depending on how large the size of the website is.
 
 ### #3: Terminal
