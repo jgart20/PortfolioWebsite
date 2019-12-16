@@ -52,7 +52,7 @@ Note- not every file within this project has been modified. Many were installed 
 ### #3: Terminal
   This will be used throughout the program in order to install and manage the entire site, and every one of its components. It is necessary to use ssh in order to tap into the server-side of the website, but the project is still majority on localhost until near the end of the website's creation.
 
-### #4: GitHub
+### #4: [GitHub](https://github.com/)
   This is not completely necessary, and I did not use it until the completion of the project, but it does assist in organization and workflow of the project. If this is worked on by multiple people, GitHub can assist the smoothness of the entire project greatly.
 
 ## Successful Run:
