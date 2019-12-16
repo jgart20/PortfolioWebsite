@@ -52,5 +52,5 @@ Note- not every file within this project has been modified. Many were installed 
 
 ## Successful Run:
 visit www.jeremygart.com
-![image of successful website rendering]
-(https://github.com/jgart20/PortfolioWebsite/blob/master/Screen%20Shot%202019-12-14%20at%203.41.21%20PM.png)
+![image of successful website rendering](/Screen Shot 2019-12-14 at 3.41.21 PM.png)
+
