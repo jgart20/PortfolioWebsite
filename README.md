@@ -1,6 +1,6 @@
-## Jeremy Gart Portfolio Website
+# Jeremy Gart Portfolio Website
 
-# Requisite software:
+## Requisite software:
 
 #1: express.js, use npm install
 
@@ -18,7 +18,7 @@
 
 #8: The original setup of the folders and app.js file was from a youtube series on the channel "Traversy Media" titled "Node.js and Express From Scratch". These may be watched for the user to gain basic knowledge of these programs, along with their integration into the PUG template engine. 
 
-# Files within the project:
+## Files within the project:
 
 Note- not every file within this project has been modified. Many were installed along with the general template that I used and have not been tampered with in any way.
 
@@ -31,7 +31,7 @@ Note- not every file within this project has been modified. Many were installed 
 #4: Other Files
   There can be modifications made to other files within this project path. However, for the scope of this project, the only files that require creation/modification are the ones listed above.
 
-# Other Necessary Programs for Setup:
+## Other Necessary Programs for Setup:
 
 #1: Godaddy.com
   Not strictly necessary, but assists in buying a domain name for a relatively cheap price. Once bought, the specific IP address can be required and linked up to a remote server. In my case, I used Kent Denver's server.
