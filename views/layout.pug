@@ -39,6 +39,8 @@ html(lang='en')
                         a.nav-link.js-scroll-trigger(href='#interests') Interests
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#accolades') Accolades
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#website_info') Website Info
         .container-fluid.p-0
             section#about.resume-section.p-3.p-lg-5.d-flex.align-items-center
                 .w-100
@@ -79,7 +81,7 @@ html(lang='en')
                     .resume-item.d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .resume-content
                             h3.mb-0 Student Leadership
-                            .subheading.mb-3 2 hrs/ week
+                            .subheading.mb-3 2.5 hrs/ week
                             p
                                 | Student Representative to the Board of Trustees. Elected by popular vote into 1 of 3 All-school leadership positions. Participant in all Board meetings, offering student perspectives on many issues. Additionally-- Active member of Student Leadership, weighing in on crucial issues, planning events, & creating effective ways for students to help govern a school.
                         .resume-date.text-md-right
@@ -103,7 +105,7 @@ html(lang='en')
                     .resume-item.d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .resume-content
                             h3.mb-0 Rose Youth Foundation
-                            .subheading.mb-3 2 hrs/ week
+                            .subheading.mb-3 2.5 hrs/ week
                             p
                                 | Member of the Rose Youth Foundation, a philanthropy board where one learns about giving responsibly and can take a leadership role in their community.
 
@@ -112,9 +114,9 @@ html(lang='en')
                     .resume-item.d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .resume-content
                             h3.mb-0 Other Activities
-                            .subheading.mb-3 15 hrs/ week total
+                            .subheading.mb-3 10 hrs/ week total
                             p
-                                | Model United Nations (1 hrs/ week): Participant in my school’s Model UN team. Two-time Intermediate conference winner out of 2 conferences attended. ○ Environmental Activism (3 hrs/ week): Rebuilt eroded trails during conservation activities & summitted 26 out of the 54 Fourteeners (peaks over 14,000 feet in elevation) found in Colorado. ○ Aspiring Chef(4 hrs/ week): Long-time passion for cooking. Recipe creator & adventurous chef/eater. Attended culinary camp in NYC. Completed Independent Study through my school. ○ B'nei Brith Youth Organization(3 hrs/ week): Active member of Rocky Mountain BBYO. Have organized multi-state conventions for thousands of teens & hosted various chapter events and fundraisers.
+                                | Model United Nations (1 hrs/ week): Participant in my school’s Model UN team. Two-time Intermediate conference winner out of 2 conferences attended. ~ Environmental Activism (2 hrs/ week): Rebuilt eroded trails during conservation activities & summitted 26 out of the 54 Fourteeners (peaks over 14,000 feet in elevation) found in Colorado. ~ Aspiring Chef(4 hrs/ week): Long-time passion for cooking. Recipe creator & adventurous chef/eater. Attended culinary camp in NYC. Completed Independent Study through my school. ~ B'nei Brith Youth Organization(1.5 hrs/ week): Active member of Rocky Mountain BBYO. Have organized multi-state conventions for thousands of teens & hosted various chapter events and fundraisers.
 
                         .resume-date.text-md-right
                             span.text-primary Various Timeframes
@@ -213,6 +215,11 @@ html(lang='en')
                             |             University of California- Berkeley Invitational Tournament
                         li
                             i.fa-li.fa.fa-trophy.text-warning
+                            |             Double Semifinalist- 
+                            sup 
+                            |             George Mason University Patriot Games 2019
+                        li
+                            i.fa-li.fa.fa-trophy.text-warning
                             |             Qualifer- 
                             sup 
                             |             Tournament of Champions 2019 and NSDA Nationals 2019
@@ -235,6 +242,38 @@ html(lang='en')
                         li
                             i.fa-li.fa.fa-trophy.text-warning
                             |             3x Team Spirit Award- Kent Denver Tennis
+            hr.m-0
+            section#website_info.resume-section.p-3.p-lg-5.d-flex.align-items-center
+                .w-100
+                    //website information section of site
+                    h2.mb-5 Website Info
+                    .resume-item.d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .resume-content
+                            h3.mb-0 Local Tools
+                            .subheading.mb-4 The tools that I employed in order to code this website
+                            div To create this website from scratch, I primarily used Node.js as my applet of choice. I employed Express.js and Bootstrap as secondary tools, and used PUG as my primary coding language/ engine.  
+                        ul.list-inline.dev-icons
+                            li.list-inline-item
+                                i.fab.fa-node-js
+                            li.list-inline-item
+                                i.fab.fa-bootstrap
+                            li.list-inline-item
+                                i.fas.fa-dog
+                    .resume-item.d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .resume-content
+                            h3.mb-0 Server Side Tools
+                            .subheading.mb-4 The tools that I employed in order to link this website up with the internet
+                            div Once I was finished with the local coding of this website, I learned basic proficiency in nginx and ssh in order to begin working on the server side of the site. From there, I employed DigitalOcean as a cloud computer, and bought a domain from GoDaddy. Finally, I used the program serve_favicon in order to intall my desired favicon onto the server.
+                        ul.list-inline.dev-icons
+                            li.list-inline-item
+                                i.fas.fa-sign-out-alt
+                            li.list-inline-item
+                                i.fab.fa-digital-ocean
+            hr.m-0
+            section#website_info.resume-section.p-3.p-lg-5.d-flex.align-items-center
+                .w-100
+                    .subheading.mb-7 Copyright Jeremy Gart, 2020
+
             // Bootstrap core JavaScript
             script(src='startbootstrap-resume-gh-pages/vendor/jquery/jquery.min.js')
             script(src='startbootstrap-resume-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js')
