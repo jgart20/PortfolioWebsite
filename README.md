@@ -33,23 +33,29 @@ Note- not every file within this project has been modified. Many were installed 
 ### #3: Img Folder
   This folder is where any images used on the website are put. For now, only the profile photo is used, but if more photos are added later, they must be put into this folder.
   
-### #4: Other Files
+### #4: Other Files/Folders
   There can be modifications made to other files within this project path. However, for the scope of this project, the only files that require creation/modification are the ones listed above.
+  * Public/startbootstrap-resume-gh-pages: Contains all bootstrap code, images for website go in here
+  * jadebootstrap-seed: Contains general bootstrap setup
+  * node_modules: _Do not delete files from here_, contains code put in by npm
+  * views: Contains PUG code
+  * package-lock.json and package.json: Contain setup for Node.js
 
 ## Other Necessary Programs for Setup:
 
-### #1: Godaddy.com
+### #1: [Godaddy.com](https://godaddy.com/)
   Not strictly necessary, but assists in buying a domain name for a relatively cheap price. Once bought, the specific IP address can be required and linked up to a remote server. In my case, I used Kent Denver's server.
   
-#### 2: DigitalOcean
+### #2: [DigitalOcean](https://cloud.digitalocean.com/)
   Again, this can be substituted for a different program. However, it is necessary regardless to acquire a program that can create droplets, a root for the server, and manage the backend network requirements for the domain. A plan must then be bought that charges monthly, with cost depending on how large the size of the website is.
 
 ### #3: Terminal
   This will be used throughout the program in order to install and manage the entire site, and every one of its components. It is necessary to use ssh in order to tap into the server-side of the website, but the project is still majority on localhost until near the end of the website's creation.
 
-#### 4: GitHub
+### #4: [GitHub](https://github.com/)
   This is not completely necessary, and I did not use it until the completion of the project, but it does assist in organization and workflow of the project. If this is worked on by multiple people, GitHub can assist the smoothness of the entire project greatly.
 
 ## Successful Run:
 visit www.jeremygart.com
 ![image of successful website rendering](/running.png)
+![image of successful terminal run](/terminal.png)
